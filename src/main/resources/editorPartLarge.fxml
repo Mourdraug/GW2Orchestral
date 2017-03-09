@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <SplitPane dividerPositions="0.5" prefHeight="398.0" prefWidth="460.0" BorderPane.alignment="CENTER">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+              </items>
+            </SplitPane>
+         </center>
+         <bottom>
+            <ScrollBar BorderPane.alignment="CENTER" />
+         </bottom>
+         <right>
+            <ScrollBar orientation="VERTICAL" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </items>
+</SplitPane>
